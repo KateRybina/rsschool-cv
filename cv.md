@@ -19,6 +19,15 @@
 
 ## _Code example_
 
+```
+function makeNegative(num) {
+  if (num > 0) {
+    return -num;
+  }
+  return num;
+}
+```
+
 ## _Experience_
 
 - Addition Weather ….... [React]
