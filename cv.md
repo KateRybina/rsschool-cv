@@ -33,9 +33,9 @@ function makeNegative(num) {
 ## _Experience_
 
 - Addition Weather ….... [React]
-  [https://extraordinary-fudge-f410f5.netlify.app]
+  [https://extraordinary-fudge-f410f5.netlify.app](https://extraordinary-fudge-f410f5.netlify.app)
 - Portfolio ....... [HTML, CSS, JS, Responsive]
-  [https://effortless-sfogliatella-125f58.netlify.app]
+  [https://effortless-sfogliatella-125f58.netlify.app](https://effortless-sfogliatella-125f58.netlify.app)
 
 ## _Education_
 
