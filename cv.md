@@ -1,5 +1,7 @@
 # **_Kate Rybina_**
 
+![Photo](rsschool-cv/img/photo.jpg 'Photo')
+
 ## _Contacts_
 
 - Address: Ukraine, Kharkiv
