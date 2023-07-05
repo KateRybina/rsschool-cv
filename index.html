@@ -9,95 +9,113 @@
   <body>
     <div class="container">
       <header>
-        <h1>Kate Rybina</h1>
-        <img class="foto" src="/rsschool-cv/photo.png" alt="My photo" />
+        <div class="two-column-header">
+          <img class="foto" src="./photo.png" alt="My photo" />
+          <div>
+            <h1 class="name">Kate Rybina</h1>
+            <h2>About myself</h2>
+            <p>
+              I expect that these courses will give me the opportunity to
+              strengthen my theoretical knowledge base, which I can apply in my
+              work.
+            </p>
+          </div>
+        </div>
       </header>
 
       <main>
-        <div class="contacts">
-          <h2>Contacts</h2>
-          <ul>
-            <li>Address: Ukraine, Kharkiv</li>
-            <li>Phone: +380688055807</li>
-            <li>Telegram: https://t.me/KatrineSR</li>
-            <li>
-              <a href="mailto:semkate84@gmail.com" title="email"
-                >E-mail: semkate84@gmail.com</a
-              >
-            </li>
-            <li>Discord: KateRybina(@KateRybina)</li>
-            <nav>
-              <li class="nav-git"><a href="#git">GitHub: KateRybina</a></li>
-            </nav>
-          </ul>
-        </div>
-        <div class="about">
-          <h2>About myself</h2>
-          <p>
-            I expect that these courses will give me the opportunity to
-            strengthen my theoretical knowledge base, which I can apply in my
-            work.
-          </p>
-        </div>
-        <div class="skills">
-          <h2>Skills</h2>
-          <p>Css, Html, JS, React, Git, Netlify.</p>
-        </div>
-        <div class="example">
-          <h2>Code example</h2>
-          <code>
-            function makeNegative(num) { if (num > 0) { return -num; } return
-            num; }
-          </code>
-        </div>
-        <div class="experience">
-          <h2>Experience</h2>
-          <ul>
-            <li>
-              Addition Weather ….... [React] <br /><a
-                href="https://extraordinary-fudge-f410f5.netlify.app"
-                target="_blank"
-              >
-                https://extraordinary-fudge-f410f5.netlify.app</a
-              >
-            </li>
-            <li>
-              Portfolio ....... [HTML, CSS, JS, Responsive] <br />
-              <a
-                href="https://effortless-sfogliatella-125f58.netlify.app"
-                target="_blank"
-              >
-                https://effortless-sfogliatella-125f58.netlify.app</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="education">
-          <h2>Education</h2>
-          <ul>
-            <li>
-              2001-2007 Kharkiv National Technical University polytechnic
-              institute" in the specialty "Specialized computer systems" and
-              obtained the qualification of system analyst engineer.
-            </li>
-            <li>
-              july 2022 — november 2022 courses SheCodes Basics (Introduction to
-              coding), SheCodes Plus (Front End Development), SheCodes React
-              (React Development), SheCodes Responsive (Responsive Web
-              Development).
-            </li>
-            <li>
-              november 2022 — Prometheus «Basics of Web UI development 2022»
-            </li>
-          </ul>
-        </div>
-        <div class="english">
-          <h2>English</h2>
-          <ul>
-            <li>2022 Green Forest (English course / Elementary)</li>
-            <li>2022 Course Campster English language - level A2</li>
-            <li>2022 Course Campster English language – level В1</li>
-          </ul>
+        <div class="two-column-main">
+          <div class="column-one">
+            <div class="contacts">
+              <h2>Contacts</h2>
+              <nav>
+                <ul>
+                  <li>Address: Ukraine, Kharkiv</li>
+                  <li>Phone: +380688055807</li>
+                  <li>Telegram: https://t.me/KatrineSR</li>
+                  <li>
+                    <a href="mailto:semkate84@gmail.com" title="email"
+                      >E-mail: semkate84@gmail.com</a
+                    >
+                  </li>
+                  <li>Discord: KateRybina(@KateRybina)</li>
+
+                  <li class="nav-git"><a href="#git">GitHub: KateRybina</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="education">
+              <h2>Education</h2>
+              <ul>
+                <li>
+                  2001-2007 Kharkiv National Technical University polytechnic
+                  institute" in the specialty "Specialized computer systems" and
+                  obtained the qualification of system analyst engineer.
+                </li>
+                <li>
+                  july 2022 — november 2022 courses SheCodes Basics
+                  (Introduction to coding), SheCodes Plus (Front End
+                  Development), SheCodes React (React Development), SheCodes
+                  Responsive (Responsive Web Development).
+                </li>
+                <li>
+                  november 2022 — Prometheus «Basics of Web UI development 2022»
+                </li>
+              </ul>
+            </div>
+            <div class="english">
+              <h2>English</h2>
+              <ul>
+                <li>2022 Green Forest (English course / Elementary)</li>
+                <li>2022 Course Campster English language - level A2</li>
+                <li>2022 Course Campster English language – level В1</li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="about">
+            <h2>About myself</h2>
+            <p>
+              I expect that these courses will give me the opportunity to
+              strengthen my theoretical knowledge base, which I can apply in my
+              work.
+            </p>
+          </div> -->
+
+          <div class="column-two">
+            <div class="skills">
+              <h2>Skills</h2>
+              <p>Css, Html, JS, React, Git, Netlify.</p>
+            </div>
+            <div class="example">
+              <h2>Code example</h2>
+              <code>
+                function makeNegative(num) { if (num > 0) { return -num; }
+                return num; }
+              </code>
+            </div>
+            <div class="experience">
+              <h2>Experience</h2>
+              <ul>
+                <li>
+                  Addition Weather ….... [React] <br /><a
+                    href="https://extraordinary-fudge-f410f5.netlify.app"
+                    target="_blank"
+                  >
+                    https://extraordinary-fudge-f410f5.netlify.app</a
+                  >
+                </li>
+                <li>
+                  Portfolio ....... [HTML, CSS, JS, Responsive] <br />
+                  <a
+                    href="https://effortless-sfogliatella-125f58.netlify.app"
+                    target="_blank"
+                  >
+                    https://effortless-sfogliatella-125f58.netlify.app</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </main>
 
@@ -121,7 +139,11 @@
               href="https://rs.school/js/"
               target="_blank"
               title="Link to RS School"
-              ><img src="/rsschool-cv/rs_school_js.svg" width="75" height="75"
+              ><img
+                src="./rs_school_js.svg"
+                width="75"
+                height="75"
+                alt="RsSchool"
             /></a>
           </div>
         </div>

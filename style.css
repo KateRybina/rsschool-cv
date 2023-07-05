@@ -5,8 +5,8 @@
 }
 
 body {
-  margin: 0 px;
-  padding: 0 px;
+  margin: 0px;
+  padding: 0px;
   background-color: #8ec9f9;
 }
 ul,
@@ -26,20 +26,21 @@ li {
   width: 100%;
   /* max-width: 1300px; */
   margin: 0 auto;
+  padding: 30px;
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 55px;
   color: #23282c;
+  font-style: italic;
 }
-header,
-main,
-footer {
-  text-align: center;
+
+header {
+  padding: 30px;
 }
 
 /* block contacts */
-.contacts {
+/* .contacts {
   width: 300px;
   margin: 0 auto;
 }
@@ -49,10 +50,10 @@ footer {
 }
 .contacts li {
   float: left;
-}
+} */
 
 /* block experience */
-.experience {
+/* .experience {
   width: 350px;
   margin: 0 auto;
 }
@@ -62,10 +63,10 @@ footer {
 }
 .experience li {
   float: left;
-}
+} */
 
 /* block education */
-.education {
+/* .education {
   width: 900px;
   margin: 0 auto;
 }
@@ -75,10 +76,10 @@ footer {
 }
 .education li {
   float: left;
-}
+} */
 
 /* block english */
-.english {
+/* .english {
   width: 400px;
   margin: 0 auto;
 }
@@ -88,7 +89,7 @@ footer {
 }
 .english li {
   float: left;
-}
+} */
 
 h2 {
   color: #3d0bc5;
@@ -131,4 +132,47 @@ footer {
 .git:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+.two-column-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  border-radius: 7%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.two-column-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.education {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.experience {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.contacts h2,
+.education h2,
+.english h2,
+.skills,
+.example,
+.experience h2 {
+  text-align: center;
 }
