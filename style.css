@@ -1,0 +1,167 @@
+:root {
+  --container-color: #6c63ff;
+  --container-font: 'Times New Roman', Times, serif;
+  --container-color-text: #070707;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #8ec9f9;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: var(--container-font);
+  border: 1px solid var(--container-color);
+  background-color: #8ec9f9;
+  border: 3px solid #8ec9f9;
+  color: var(--container-color-text);
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 55px;
+  color: #23282c;
+  font-style: italic;
+}
+
+header {
+  padding: 30px;
+}
+
+h2 {
+  color: #3d0bc5;
+  font-style: italic;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+footer {
+  max-width: 100%;
+  background-color: #3e79a9;
+}
+
+.footer-two-column {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.git {
+  display: flex;
+  align-items: center;
+}
+
+.rsschool {
+  display: flex;
+  align-items: center;
+}
+
+.year p {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.nav-git:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.git:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.two-column-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  border-radius: 7%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.two-column-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  gap: 50px;
+  padding: 0 30px;
+}
+
+.education {
+  margin: 0 auto;
+}
+
+.experience {
+  margin: 0 auto;
+}
+
+.contacts h2,
+.education h2,
+.english h2,
+.skills,
+.example,
+.experience h2 {
+  text-align: center;
+}
+
+/* ===============================new========================== */
+.column-one,
+.column-two {
+  flex: 0 1 45%;
+}
+
+.foto {
+  flex: 0 1 30%;
+}
+
+.main-info {
+  flex: 0 1 70%;
+}
+
+/* =====================adaptive=========================== */
+
+@media (max-width: 920px) {
+  .two-column-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .foto {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .two-column-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  h2 ~ p {
+    text-align: left;
+  }
+}
