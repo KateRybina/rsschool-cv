@@ -1,6 +1,6 @@
 # **_Kate Rybina_**
 
-![Photo](./photo.png 'Photo')
+![Photo](./assets/img/photo.png 'Photo')
 
 ## _Contacts_
 
