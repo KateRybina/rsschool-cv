@@ -9,24 +9,21 @@ body {
   padding: 0px;
   background-color: #8ec9f9;
 }
+
 ul,
 li {
   padding: 0;
   margin: 0;
 }
+
 .container {
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
   font-family: var(--container-font);
   border: 1px solid var(--container-color);
   background-color: #8ec9f9;
   border: 3px solid #8ec9f9;
   color: var(--container-color-text);
   width: 100%;
-  /* max-width: 1300px; */
   margin: 0 auto;
-  /* padding: 30px; */
 }
 
 h1 {
@@ -38,58 +35,6 @@ h1 {
 header {
   padding: 30px;
 }
-
-/* block contacts */
-/* .contacts {
-  width: 300px;
-  margin: 0 auto;
-}
-.contacts ul {
-  display: table;
-  margin: 0 auto;
-}
-.contacts li {
-  float: left;
-} */
-
-/* block experience */
-/* .experience {
-  width: 350px;
-  margin: 0 auto;
-}
-.experience ul {
-  display: table;
-  margin: 0 auto;
-}
-.experience li {
-  float: left;
-} */
-
-/* block education */
-/* .education {
-  width: 900px;
-  margin: 0 auto;
-}
-.education ul {
-  display: table;
-  margin: 0 auto;
-}
-.education li {
-  float: left;
-} */
-
-/* block english */
-/* .english {
-  width: 400px;
-  margin: 0 auto;
-}
-.english ul {
-  display: table;
-  margin: 0 auto;
-}
-.english li {
-  float: left;
-} */
 
 h2 {
   color: #3d0bc5;
@@ -111,6 +56,7 @@ footer {
   align-items: center;
   margin: 0 auto;
 }
+
 .git {
   display: flex;
   align-items: center;
@@ -164,7 +110,6 @@ footer {
 }
 
 .education {
-  /* width: 600px; */
   margin: 0 auto;
 }
 
@@ -180,6 +125,7 @@ footer {
 .experience h2 {
   text-align: center;
 }
+
 /* ===============================new========================== */
 .column-one,
 .column-two {
@@ -194,7 +140,7 @@ footer {
   flex: 0 1 70%;
 }
 
-/* =====================адаптив=========================== */
+/* =====================adaptive=========================== */
 
 @media (max-width: 920px) {
   .two-column-header {
