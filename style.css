@@ -26,7 +26,7 @@ li {
   width: 100%;
   /* max-width: 1300px; */
   margin: 0 auto;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 h1 {
@@ -101,6 +101,7 @@ main {
 }
 
 footer {
+  max-width: 100%;
   background-color: #3e79a9;
 }
 
@@ -139,6 +140,8 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
+  gap: 30px;
+  padding: 0 30px;
 }
 
 .foto {
@@ -156,15 +159,16 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
+  gap: 50px;
+  padding: 0 30px;
 }
 
 .education {
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
 }
 
 .experience {
-  width: 350px;
   margin: 0 auto;
 }
 
@@ -175,4 +179,43 @@ footer {
 .example,
 .experience h2 {
   text-align: center;
+}
+/* ===============================new========================== */
+.column-one,
+.column-two {
+  flex: 0 1 45%;
+}
+
+.foto {
+  flex: 0 1 30%;
+}
+
+.main-info {
+  flex: 0 1 70%;
+}
+
+/* =====================адаптив=========================== */
+
+@media (max-width: 920px) {
+  .two-column-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .foto {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .two-column-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  h2 ~ p {
+    text-align: left;
+  }
 }
