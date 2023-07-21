@@ -30,34 +30,134 @@
     <main class="main">
       <div class="container main-container">
         <section class="welcome">
-          <div class="welcome-brooklyn">Welcome <br> to the Brooklyn <br> Library</div>
+          <div class="welcome-brooklyn">
+            Welcome <br />
+            to the Brooklyn <br />
+            Library
+          </div>
         </section>
         <section class="about">
-			<div class="about-container">
-				<div class="section-line">
-					<h2 class="title-about">About</h2>
-					<hr class="line-about">
-				</div>
-				<h2 class="brooklyn-about">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</h2>
-			</div>
-			<div class="images-items">
-				<div class="image1">
-					<img src="./assets/img/image 1.png" alt="">
-				</div>
-				<div class="image2">
-					<img src="./assets/img/image 2.png" alt="">
-				</div>
-				<div class="image3">
-					<img src="./assets/img/image 3.png" alt="">
-				</div>
-			</div>
+          <div class="about-container">
+            <div class="section-line">
+              <h2 class="title-about">About</h2>
+              <hr class="line-about" />
+            </div>
+            <h2 class="brooklyn-about">
+              The Brooklyn Library is a free workspace, a large number of books
+              and a cozy coffee shop inside
+            </h2>
+          </div>
+          <div class="images-items">
+            <div class="image1">
+              <img src="./assets/img/image 1.png" alt="" />
+            </div>
+            <div class="image2">
+              <img src="./assets/img/image 2.png" alt="" />
+            </div>
+            <div class="image3">
+              <img src="./assets/img/image 3.png" alt="" />
+            </div>
+          </div>
 
-		   <div class="carousel-pagination">
-			<div class="carousel1"></div>
-			<div class="carousel2"></div>
-			<div class="carousel3"></div>
-		   </div>
-		</section>
+          <div class="carousel-pagination">
+            <div class="carousel1"></div>
+            <div class="carousel2"></div>
+            <div class="carousel3"></div>
+          </div>
+        </section>
+        <section class="favorites">
+          <div class="favorites-container">
+            <div class="favorites-line">
+              <h2 class="title-favorites">Favorites</h2>
+              <hr class="line-favorites" />
+            </div>
+            <p class="pick">Pick favorites of season</p>
+          </div>
+          <div class="seasons">
+            <div class="winter">
+              <div class="group-winter">
+                <input
+                  type="radio"
+                  name="seasons-year"
+                  checked="on"
+                  class="button-winter"
+                  id="button-radio-winter"
+                />
+                <label for="button-radio-winter" class="button-winter"
+                  >Winter</label
+                >
+              </div>
+            </div>
+            <div class="spring">
+              <div class="group-spring">
+                <input
+                  type="radio"
+                  name="seasons-year"
+                  class="button-spring"
+                  id="button-radio-spring"
+                />
+                <label for="button-radio-spring" class="button-spring"
+                  >Spring</label
+                >
+              </div>
+            </div>
+            <div class="summer">
+              <div class="group-summer">
+                <input
+                  type="radio"
+                  name="seasons-year"
+                  class="button-summer"
+                  id="button-radio-summer"
+                />
+                <label for="button-radio-summer" class="button-summer"
+                  >Summer</label
+                >
+              </div>
+            </div>
+            <div class="autumn">
+              <div class="group-autumn">
+                <input
+                  type="radio"
+                  name="seasons-year"
+                  class="button-autumn"
+                  id="button-radio-autumn"
+                />
+                <label for="button-radio-autumn" class="button-autumn"
+                  >Autumn</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="favorites-items">
+            <!-- first book -->
+            <div class="first-book">
+              <div class="book-staff">
+                <p class="staff-name">Staff Picks</p>
+                <hr class="staff-line" />
+              </div>
+              <div class="book-name">The Book Eaters <br />By Sunyi Dean</div>
+              <div class="book-text">
+                An unusual sci-fi story about a book eater woman who tries
+                desperately to save her dangerous mind-eater son from tradition
+                and certain death. Complete with dysfunctional family values,
+                light Sapphic romance, and a strong, complex protagonist. Not
+                for the faint of heart.
+              </div>
+              <div class="book-button">
+				<button class="button-buy">Buy</button>
+			  </div>
+              <div class="book-image">
+				<img src="./assets/img/book1-winter.png" alt="">
+			  </div>
+            </div>
+
+            <!-- second book -->
+            <div class="second-book"></div>
+            <div class="third-book"></div>
+            <div class="fourth-book"></div>
+          </div>
+        </section>
       </div>
     </main>
     <footer></footer>

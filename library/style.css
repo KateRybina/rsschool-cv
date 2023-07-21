@@ -1,3 +1,7 @@
+:root {
+  --font-forum: 'Forum';
+  --font-inter: 'Inter';
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -23,6 +27,7 @@ body {
   font-size: 30px;
   margin: 20px 0px 20px 20px;
   flex: 0 1 50%;
+  font-family: var(--font-forum);
 }
 
 .navigation {
@@ -38,6 +43,7 @@ body {
   align-items: center;
   list-style: none;
   font-size: 20px;
+  font-family: var(--font-inter);
   gap: 30px;
 }
 
@@ -67,6 +73,7 @@ body {
   height: 220px;
   background-color: #0c0c0e;
   font-size: 40px;
+  font-family: var(--font-forum);
   color: #ffffff;
   text-transform: uppercase;
   margin-top: 220px;
@@ -77,14 +84,18 @@ body {
   text-align: center;
 }
 
-.section-line {
+.section-line,
+.favorites-line {
   text-align: center;
 }
-.title-about {
+.title-about,
+.title-favorites {
   font-size: 40px;
   margin-bottom: 20px;
+  font-family: var(--font-forum);
 }
-.line-about {
+.line-about,
+.line-favorites {
   width: 50px;
   height: 1px;
   color: #0c0c0e;
@@ -94,6 +105,7 @@ body {
   font-size: 20px;
   margin-top: 40px;
   text-align: center;
+  font-family: var(--font-inter);
 }
 
 .images-items {
@@ -122,4 +134,103 @@ body {
 
 .carousel1 {
   background-color: #bb945f;
+}
+
+.pick {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0px 40px 20px;
+  font-family: var(--font-inter);
+}
+
+.seasons {
+  display: flex;
+  margin: 40px 0px 0px 10px;
+  gap: 90px;
+}
+
+.button-winter {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  font-family: var(--font-inter);
+}
+.button-spring,
+.button-autumn,
+.button-summer {
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  font-family: var(--font-inter);
+}
+
+.seasons {
+  padding: 5px 5px;
+}
+
+.first-book {
+  width: 550px;
+  height: 555px;
+  border: 1px solid #000000;
+
+}
+
+.book-staff{
+	margin:15px 0px 0px 20px;	
+	line-height: 40px;
+	letter-spacing: 2px;	
+	display: flex;
+	flex-direction: column;
+	justify-content:left;
+	text-align: left;
+	}
+
+.staff-name {
+  font-size: 20px;
+  color: #000000;
+  font-family: var(--font-forum);
+}
+
+.staff-line{
+	border: 1px solid #BB945F;
+	width:79px;
+	background-color: #BB945F;
+	
+}
+
+.book-name{
+	font-size: 15px;
+	font-family: var(--font-inter);
+	font-weight: bold;
+line-height: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.book-text{
+	width: 355px;
+	height: 320px;
+	font-size: 15px;
+	font-family: var(--font-inter);
+	line-height: 40px;
+	letter-spacing: 2px;
+
+}
+
+
+.button-buy{
+	width: 75px;
+	height: 30px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: var(--font-inter);
+	border:1px solid #0C0C0E;
+}
+
+.button-buy:hover{
+	background-color: #BB945F;
+	border:1px solid #BB945F;
 }
