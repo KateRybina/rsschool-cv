@@ -29,8 +29,8 @@ body {
   display: flex;
   flex: 0 1 50%;
 }
-.nav{
-	margin-right: 40px;
+.nav {
+  margin-right: 40px;
 }
 .nav-list {
   display: flex;
@@ -48,7 +48,6 @@ body {
 
 .icons {
   margin: 20px 31px 20px 0px;
-  
 }
 
 /* .items:nth-child(6){
@@ -57,24 +56,70 @@ body {
 	
 } */
 
-
-.welcome{
-	background: url("./assets/img/Welcome.png") no-repeat center center;
-	height: 600px;
-	display: flex;
+.welcome {
+  background: url('./assets/img/Welcome.png') no-repeat center center;
+  height: 600px;
+  display: flex;
 }
 
-.welcome-brooklyn{
- width: 600px;
- height: 220px;
- background-color: #0C0C0E;
- font-size: 40px;
- color:#FFFFFF;
- text-transform: uppercase;
- margin-top: 220px;
- margin-bottom: 160px;
- display: flex;
- align-items: center;
- justify-content: center;
- text-align: center;
+.welcome-brooklyn {
+  width: 600px;
+  height: 220px;
+  background-color: #0c0c0e;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 220px;
+  margin-bottom: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-line {
+  text-align: center;
+}
+.title-about {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.line-about {
+  width: 50px;
+  height: 1px;
+  color: #0c0c0e;
+}
+
+.brooklyn-about {
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.images-items {
+  display: flex;
+  gap: 25px;
+}
+
+.carousel-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.carousel1,
+.carousel2,
+.carousel3 {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #0c0c0e;
+  cursor: pointer;
+}
+
+.carousel1 {
+  background-color: #bb945f;
 }
