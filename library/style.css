@@ -101,9 +101,14 @@ body {
   height: 61px;
   margin: 0 auto;
 }
+.coffeshop-title {
+  text-align: center;
+  /* margin: 0 auto; */
+}
 
 .title-about,
-.title-favorites {
+.title-favorites,
+.title-coffeshop {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -114,7 +119,8 @@ body {
 }
 
 .line-about,
-.line-favorites {
+.line-favorites,
+.line-coffeshop {
   width: 50px;
   height: 1px;
   background-color: #0c0c0e;
@@ -201,14 +207,17 @@ body {
 
 .favorites-items {
   /* position: relative; */
- display: flex;
- flex-wrap: wrap;
- gap:40px 180px;
- margin-left: 20px;
- margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 180px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.first-book, .second-book, .third-book, .fourth-book {
+.first-book,
+.second-book,
+.third-book,
+.fourth-book {
   width: 550px;
   height: 555px;
   border: 1px solid #000000;
@@ -283,14 +292,87 @@ body {
   left: 389px;
 }
 
-.button-buy-own{
+.button-buy-own {
   width: 75px;
   height: 30px;
   font-size: 10px;
   font-weight: bold;
   font-family: var(--font-inter);
-  border: 1px solid #BB945F;
-  color: #BB945F;
+  border: 1px solid #bb945f;
+  color: #bb945f;
   margin-left: 20px;
   margin-bottom: 15px;
+}
+
+.coffeshop-container {
+  height: 841px;
+}
+.coffe-text {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: var(--font-inter);
+  color: #000000;
+  margin: 40px 20px 40px 20px;
+}
+
+.coffe-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-coffe-tea,
+.title-deserts {
+  color: #bb945f;
+  font-size: 40px;
+  font-family: var(--font-forum);
+  line-height: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.coffe-tea {
+  margin-left: 20px;
+}
+
+.deserts {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.title {
+  width: 196px;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #000000;
+  font-family: var(--font-inter);
+}
+
+.price {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #000000;
+  font-family: var(--font-forum);
+}
+
+.line {
+  background-color: #bb945f;
+  border: #bb945f;
+  width: 100px;
+  height: 1px;
+}
+
+.menu-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px 60px;
 }
