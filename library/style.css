@@ -105,10 +105,15 @@ body {
   text-align: center;
   /* margin: 0 auto; */
 }
+.contacts-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 .title-about,
 .title-favorites,
-.title-coffeshop {
+.title-coffeshop,
+.title-contacts {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -120,7 +125,8 @@ body {
 
 .line-about,
 .line-favorites,
-.line-coffeshop {
+.line-coffeshop,
+.line-contacts {
   width: 50px;
   height: 1px;
   background-color: #0c0c0e;
@@ -375,4 +381,56 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 40px 60px;
+}
+
+.contacts-container {
+  height: 575px;
+}
+
+.contacts-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info-library {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: var(--font-inter);
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.phone {
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: var(--font-inter);
+  color: #000000;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.info-name {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: var(--font-inter);
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.info-fio{
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  font-family: var(--font-inter);
+  color: #000000;
 }
