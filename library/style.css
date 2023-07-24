@@ -201,7 +201,7 @@ body {
 
 .seasons {
   display: flex;
-  margin: 40px 0px 0px 10px;
+  margin: 40px 0px 40px 10px;
   gap: 90px;
   padding: 5px 5px;
 }
@@ -229,6 +229,10 @@ body {
   gap: 40px 180px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.favorites-items-spring, .favorites-items-summer, .favorites-items-autumn{
+	display: none;
 }
 
 .first-book,
