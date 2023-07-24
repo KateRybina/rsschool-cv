@@ -106,6 +106,7 @@ body {
   margin: 0 auto;
 }
 .coffeshop-title {
+margin-top:20px;
   text-align: center;
   /* margin: 0 auto; */
 }
@@ -335,6 +336,7 @@ body {
   font-family: var(--font-inter);
   color: #000000;
   margin: 40px 20px 40px 20px;
+  text-align: center;
 }
 
 .coffe-menu {
@@ -439,6 +441,7 @@ body {
   font-family: var(--font-inter);
   color: #000000;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .info-fio {
@@ -448,6 +451,7 @@ body {
   letter-spacing: 2px;
   font-family: var(--font-inter);
   color: #000000;
+  text-decoration: none;
 }
 
 .library-card-container {
