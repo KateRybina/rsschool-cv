@@ -50,6 +50,10 @@ body {
   gap: 30px;
   line-height: 50px;
 }
+.nav-link{
+	text-decoration: none;
+	color:#FFFFFF;
+}
 
 .items:hover {
   text-decoration: underline;
@@ -594,6 +598,7 @@ justify-content: center;
 	
 }
 
+
 .footer-one-one{
 	display:flex;
 	justify-content: space-between;
@@ -628,7 +633,7 @@ justify-content: center;
 }
 
 .text-four, .text-five, .text-six{
-	tab-size: 20px;
+	font-size: 20px;
 	font-family: var(--font-inter);
 	line-height: 20px;
 	letter-spacing: 2px;
@@ -637,4 +642,15 @@ justify-content: center;
 
 .footer-line{
 	background-color: #FFFFFF;
+}
+
+
+.footer-icons{
+  display: flex;
+  margin-left: -40px;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+
 }
