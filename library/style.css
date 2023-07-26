@@ -1,8 +1,8 @@
 :root {
   --font-forum: 'Forum';
   --font-inter: 'Inter', sans-serif;
-
 }
+
 body {
   margin: 0px;
   padding: 0px;
@@ -25,7 +25,6 @@ body {
   line-height: 30px;
 }
 
-
 .brooklyn {
   font-size: 30px;
   margin: 20px 0px 20px 20px;
@@ -36,8 +35,6 @@ body {
   line-height: 50px;
   letter-spacing: 0.6px;
 }
-
-
 
 .navigation {
   display: flex;
@@ -58,7 +55,6 @@ body {
 .nav-link {
   text-decoration: none;
   color: #ffffff;
-
 }
 
 .items:hover {
@@ -73,6 +69,7 @@ body {
   height: 28px;
 }
 
+
 .welcome {
   background: url('./assets/img/Welcome.png') no-repeat center center;
   height: 600px;
@@ -83,14 +80,20 @@ body {
   width: 600px;
   height: 220px;
   background-color: #0c0c0e;
+  margin-top: 220px;
+  margin-bottom: 160px;
+}
+
+.welcome-brooklyn-text {
+  width: 520px;
+  height: 150px;
   font-size: 40px;
   line-height: 50px;
   letter-spacing: 3px;
   font-family: var(--font-forum);
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: 220px;
-  margin-bottom: 160px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,7 +117,6 @@ body {
 .coffeshop-title {
   margin-top: 20px;
   text-align: center;
-  /* margin: 0 auto; */
 }
 .contacts-title {
   text-align: center;
@@ -161,7 +163,6 @@ body {
 
 .images-items {
   display: flex;
-  /* flex-direction: row; */
   gap: 25px;
   margin-left: 20px;
   margin-right: 20px;
@@ -181,8 +182,8 @@ body {
   justify-content: center;
   gap: 10px;
   padding: 5px 5px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .carousel1,
@@ -202,13 +203,14 @@ body {
 .pick {
   font-size: 20px;
   font-weight: bold;
-  margin: 40px 0px 40px 20px;
+  letter-spacing: 0.45px;
+  margin: 40px 0px 35px 20px;
   font-family: var(--font-inter);
 }
 
 .seasons {
   display: flex;
-  margin: 40px 0px 40px 10px;
+  margin: 0px 0px 40px 10px;
   gap: 90px;
   padding: 5px 5px;
 }
@@ -218,6 +220,7 @@ body {
   font-size: 20px;
   color: #000000;
   cursor: pointer;
+  letter-spacing: 0.45px;
   font-family: var(--font-inter);
 }
 .button-spring,
@@ -229,11 +232,18 @@ body {
   font-family: var(--font-inter);
 }
 
+.group-winter,
+.group-spring,
+.group-summer,
+.group-autumn {
+  display: flex;
+  gap: 20px;
+}
+
 .favorites-items {
-  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 180px;
+  gap: 40px 260px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -252,12 +262,11 @@ body {
   height: 555px;
   border: 1px solid #000000;
   position: relative;
+ 
 }
 
 .book-staff {
-  margin: 15px 0px 0px 20px;
-  /* display: flex; */
-  /* flex-direction: column; */
+  margin: 10px 0px 0px 20px;
   height: 53px;
 }
 
@@ -337,6 +346,7 @@ body {
 .coffeshop-container {
   height: 841px;
 }
+
 .coffe-text {
   font-size: 20px;
   line-height: 40px;
@@ -426,7 +436,7 @@ body {
   letter-spacing: 2px;
   font-family: var(--font-inter);
   color: #000000;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .phone {
@@ -599,7 +609,6 @@ body {
 .footer-container {
   background-color: #0c0c0e;
   color: #ffffff;
-  /* height: 250px; */
   padding: 20px 20px 0px 20px;
 }
 
@@ -648,7 +657,8 @@ body {
   letter-spacing: 2px;
 }
 
-.text-six, .text-five {
+.text-six,
+.text-five {
   text-decoration: none;
   color: #ffffff;
 }
