@@ -36,6 +36,10 @@ body {
   letter-spacing: 0.6px;
 }
 
+.welcome-brooklyn-text {
+  margin-left: 40px;
+}
+
 .navigation {
   display: flex;
   justify-content: flex-end;
@@ -68,7 +72,6 @@ body {
   width: 28px;
   height: 28px;
 }
-
 
 .welcome {
   background: url('./assets/img/Welcome.png') no-repeat center center;
@@ -183,7 +186,7 @@ body {
   gap: 10px;
   padding: 5px 5px;
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 .carousel1,
@@ -209,9 +212,12 @@ body {
 }
 
 .seasons {
+  width: 700px;
+  height: 24px;
   display: flex;
-  margin: 0px 0px 40px 10px;
+  margin: 0px 0px 35px 10px;
   gap: 90px;
+  justify-content: space-between;
   padding: 5px 5px;
 }
 
@@ -240,12 +246,30 @@ body {
   gap: 20px;
 }
 
+.group-winter {
+  width: 104px;
+  height: 24px;
+}
+.group-spring {
+  width: 99px;
+  height: 24px;
+}
+.group-summer {
+  width: 116px;
+  height: 24px;
+}
+.group-autumn {
+  width: 111px;
+  height: 24px;
+}
+
 .favorites-items {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 260px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .favorites-items-spring,
@@ -262,17 +286,15 @@ body {
   height: 555px;
   border: 1px solid #000000;
   position: relative;
- 
 }
 
 .book-staff {
   margin: 10px 0px 0px 20px;
-  height: 53px;
-}
+} 
 
 .staff-name {
   font-size: 20px;
-  line-height: 40px;
+  line-height: 23px;
   letter-spacing: 2px;
   color: #000000;
   font-family: var(--font-forum);
@@ -283,20 +305,36 @@ body {
   width: 79px;
   background-color: #bb945f;
   margin-left: 0px;
-  margin-top: -7px;
+ }
+
+.staff-line-other{
+  border: 1px solid #bb945f;
+  width: 59px;
+  background-color: #bb945f;
+  margin-left: 0px;
+  padding-top:-10px;
 }
 
 .book-name {
   font-size: 15px;
   font-family: var(--font-inter);
   font-weight: bold;
-  line-height: 40px;
+  line-height: 41px;
   letter-spacing: 2px;
+
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  margin-top: -16px;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+.book-name-uppercase {
+	 text-transform: uppercase;
+}
+
+.book-name-capitalize,.book-text{
+ margin-top: -15px;
 }
 
 .book-text {
@@ -307,6 +345,7 @@ body {
   line-height: 40px;
   letter-spacing: 2px;
   margin-left: 20px;
+  text-transform: capitalize;
 }
 
 .button-buy {
@@ -316,7 +355,8 @@ body {
   font-weight: bold;
   font-family: var(--font-inter);
   border: 1px solid #0c0c0e;
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 19px;
   margin-bottom: 15px;
 }
 
@@ -339,7 +379,8 @@ body {
   font-family: var(--font-inter);
   border: 1px solid #bb945f;
   color: #bb945f;
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 19px;
   margin-bottom: 15px;
 }
 
@@ -353,7 +394,7 @@ body {
   letter-spacing: 2px;
   font-family: var(--font-inter);
   color: #000000;
-  margin: 40px 20px 40px 20px;
+  margin: 40px 20px 0px 20px;
   text-align: center;
 }
 
@@ -369,7 +410,7 @@ body {
   font-family: var(--font-forum);
   line-height: 40px;
   letter-spacing: 2px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .coffe-tea {
@@ -385,9 +426,13 @@ body {
   width: 196px;
   font-size: 20px;
   line-height: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #000000;
   font-family: var(--font-inter);
+}
+
+.title-coffeshop{
+	padding-top:5px;
 }
 
 .price {
@@ -420,6 +465,8 @@ body {
 
 .contacts-container {
   height: 575px;
+ margin-top: -18px;
+
 }
 
 .contacts-info {
@@ -429,6 +476,7 @@ body {
   margin-right: 20px;
 }
 
+
 .info-library {
   font-size: 20px;
   font-weight: bold;
@@ -436,7 +484,6 @@ body {
   letter-spacing: 2px;
   font-family: var(--font-inter);
   color: #000000;
-  margin-bottom: 20px;
 }
 
 .phone {
@@ -451,13 +498,15 @@ body {
 }
 
 .info-name {
-  padding-top: 20px;
+  /* padding-top: 40px; */
+  /* margin-top:40px; */
   font-size: 20px;
   font-weight: bold;
-  line-height: 40px;
+  line-height: 80px;
   letter-spacing: 2px;
   font-family: var(--font-inter);
   color: #000000;
+  margin-top: 10px;
   margin-bottom: 20px;
   text-decoration: none;
 }
@@ -474,6 +523,7 @@ body {
 
 .library-card-container {
   height: 614px;
+   margin-top: -15px;
 }
 
 .title-find-card {
@@ -484,16 +534,21 @@ body {
   letter-spacing: 0.6px;
   text-align: center;
   height: 50px;
-  margin-bottom: 30px;
+  margin-left: -10px;
 }
 
 .find-get-card {
+  height: 453px;
   display: flex;
   justify-content: space-between;
+  /* align-items: flex-start; */
+  margin-top: -32px;
   margin-left: 20px;
   margin-right: 20px;
 }
-
+.find-card-container {
+  margin-top: -10px;
+}
 .find-card {
   border: 1px solid #bb945f;
   box-shadow: 0px 4px 4px 0px #8e8e8e;
@@ -509,7 +564,6 @@ body {
   background-color: #bb945f;
   width: 560px;
   height: 272px;
-
   padding-left: 20px;
   margin-bottom: 24px;
 }
@@ -610,11 +664,19 @@ body {
   background-color: #0c0c0e;
   color: #ffffff;
   padding: 20px 20px 0px 20px;
+  /* height: 250px; */
 }
-
+/* .footer-one{
+	height: 90px;
+	display:flex;
+	flex-direction: column;
+	gap:10px 0px;
+} */
 .footer-one-one {
   display: flex;
   justify-content: space-between;
+  margin-bottom: -35px;
+  /* align-items: flex-start; */
 }
 
 .footer-one-two {
@@ -626,6 +688,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -11px;
+  /* height: 22px; */
 }
 
 .text-one {
@@ -675,3 +739,14 @@ body {
   list-style: none;
   gap: 15px;
 }
+
+/* .text-five{
+	padding-bottom:5px;
+	padding-left: 75px;
+} */
+
+/* .text-two{
+	display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+} */
